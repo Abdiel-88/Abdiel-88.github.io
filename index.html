@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        nav {
+            background: #444;
+            padding: 0.5rem 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-size: 1.2rem;
+        }
+
+        nav a:hover {
+            color: #9EECBC;
+        }
+
+        section {
+            padding: 2rem;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        h2 {
+            color: #333;
+            margin-bottom: 1rem;
+        }
+
+        .about img {
+            max-width: 150px;
+            border-radius: 50%;
+            margin-bottom: 1rem;
+        }
+
+        .portfolio-item {
+            margin-bottom: 2rem;
+        }
+
+        .portfolio-item img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .portfolio-item h3 {
+            margin: 0.5rem 0;
+        }
+
+        .resume a {
+            display: inline-block;
+            margin: 1rem 0;
+            padding: 0.5rem 1rem;
+            background: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .resume a:hover {
+            background: #555;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #333;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer a {
+            color: #9EECBC;
+            margin: 0 0.5rem;
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <p>Welcome to my personal website!</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact Me</a>
+    </nav>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <img src="your-photo.jpg" alt="Your Photo">
+        <p>Hello! I’m [Your Name], a passionate developer specializing in [your specialties]. I’ve worked on [mention a project or company]. Let’s build something amazing together!</p>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <div class="portfolio-item">
+            <img src="project1-screenshot.jpg" alt="Project 1">
+            <h3>Project 1</h3>
+            <p>A short description of the project. This project solves [problem] and demonstrates [skills].</p>
+            <a href="https://github.com/yourusername/project1" target="_blank">GitHub</a>
+            <a href="https://liveapp.com" target="_blank">Live App</a>
+        </div>
+        <div class="portfolio-item">
+            <img src="project2-screenshot.jpg" alt="Project 2">
+            <h3>Project 2</h3>
+            <p>A short description of the project. This project solves [problem] and demonstrates [skills].</p>
+            <a href="https://github.com/yourusername/project2" target="_blank">GitHub</a>
+            <a href="https://liveapp.com" target="_blank">Live App</a>
+        </div>
+    </section>
+
+    <section id="resume" class="resume">
+        <h2>Resume</h2>
+        <a href="resume.pdf" target="_blank">View Resume</a>
+        <a href="resume.pdf" download>Download Resume</a>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>Connect with me on social media:</p>
+        <a href="https://linkedin.com/in/yourprofile" target="_blank">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/yourusername" target="_blank">
+            <i class="fab fa-github"></i>
+        </a>
+        <a href="https://twitter.com/yourhandle" target="_blank">
+            <i class="fab fa-twitter"></i>
+        </a>
+    </section>
+
+    <footer>
+        &copy; 2024 Your Name. All Rights Reserved.
+    </footer>
+</body>
+</html>
